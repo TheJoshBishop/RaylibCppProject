@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "command": "",
+    "tasks": [
+        {
+            "label": "Run Makefile",
+            "type": "shell",
+            "args": ["mingw32-make"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
